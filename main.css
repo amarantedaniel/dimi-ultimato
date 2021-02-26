@@ -1,0 +1,26 @@
+* {
+    background-color: #444;
+    color: white;
+}
+
+div.outer {
+    height: 10em;
+    position: relative;
+    height: 100vh;
+}
+div.inner {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 6em;
+}
+p {
+    font-size: 4em;
+}
